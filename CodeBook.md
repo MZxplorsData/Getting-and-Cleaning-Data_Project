@@ -2,16 +2,18 @@
 
 This code books describes the tidy data that was prepared in the framework of this project.
 
-## Raw Data Source
+### Raw Data Source
 
 The original raw data is "Human Activity Recognition Using Smartphones Data Set", which is available on https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and its code book and detailed description can be found on http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. 
 
-## Data Transformation
+### Data Transformation
 
 The readme.md file describes the transformation steps from the original raw data to the tidy data. 
 
-## Tidy Data Description
+### Tidy Data Description
 
+| Variable | Description
+-----------|-------------
 | subject | ID number of the participants of the experiment aged 19-48 years (total of 30 participants)
 | activity | Factor with 6 levels and each level represents the activity done by the participants (walking - 1, walkingUpstairs - 2, walkignDownstairs - 3, sitting - 4, standing - 5, and laying - 6)
 | tbodyacc.mean.x | Mean time for acceleration of body for X direction
@@ -80,5 +82,3 @@ The readme.md file describes the transformation steps from the original raw data
 | fbodybodygyromag.std | Standard deviation of frequency of magnitude of body gyroscope measurement
 | fbodybodygyrojerkmag.mean | Mean frequency of magnitude of body gyroscope jerk measurement
 | fbodybodygyrojerkmag.std | Standard deviation frequency of magnitude of body gyroscope jerk measurement
-
-
